@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB22F2612527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2602527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift */; };
+		DB22F2632527A73700917DF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2622527A73700917DF9 /* ContentView.swift */; };
+		DB22F2652527A73900917DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB22F2642527A73900917DF9 /* Assets.xcassets */; };
+		DB22F2682527A73900917DF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB22F2672527A73900917DF9 /* Preview Assets.xcassets */; };
+		DB22F26A2527A73900917DF9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2692527A73900917DF9 /* Persistence.swift */; };
+		DB22F26D2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB22F26B2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodeld */; };
+		DB22F2782527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2772527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.swift */; };
+		DB22F2832527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2822527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB22F2742527A73A00917DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB22F2552527A73700917DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB22F25C2527A73700917DF9;
+			remoteInfo = iOS_AWS_S3_Uploader;
+		};
+		DB22F27F2527A73A00917DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB22F2552527A73700917DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB22F25C2527A73700917DF9;
+			remoteInfo = iOS_AWS_S3_Uploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB22F25D2527A73700917DF9 /* iOS_AWS_S3_Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_AWS_S3_Uploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB22F2602527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AWS_S3_UploaderApp.swift; sourceTree = "<group>"; };
+		DB22F2622527A73700917DF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB22F2642527A73900917DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB22F2672527A73900917DF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB22F2692527A73900917DF9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DB22F26C2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_AWS_S3_Uploader.xcdatamodel; sourceTree = "<group>"; };
+		DB22F26E2527A73900917DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB22F2732527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_AWS_S3_UploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB22F2772527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AWS_S3_UploaderTests.swift; sourceTree = "<group>"; };
+		DB22F2792527A73A00917DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB22F27E2527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_AWS_S3_UploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB22F2822527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AWS_S3_UploaderUITests.swift; sourceTree = "<group>"; };
+		DB22F2842527A73A00917DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB22F25A2527A73700917DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB22F2702527A73A00917DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB22F27B2527A73A00917DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB22F2542527A73700917DF9 = {
+			isa = PBXGroup;
+			children = (
+				DB22F25F2527A73700917DF9 /* iOS_AWS_S3_Uploader */,
+				DB22F2762527A73A00917DF9 /* iOS_AWS_S3_UploaderTests */,
+				DB22F2812527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests */,
+				DB22F25E2527A73700917DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB22F25E2527A73700917DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB22F25D2527A73700917DF9 /* iOS_AWS_S3_Uploader.app */,
+				DB22F2732527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.xctest */,
+				DB22F27E2527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB22F25F2527A73700917DF9 /* iOS_AWS_S3_Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				DB22F2602527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift */,
+				DB22F2622527A73700917DF9 /* ContentView.swift */,
+				DB22F2642527A73900917DF9 /* Assets.xcassets */,
+				DB22F2692527A73900917DF9 /* Persistence.swift */,
+				DB22F26E2527A73900917DF9 /* Info.plist */,
+				DB22F26B2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodeld */,
+				DB22F2662527A73900917DF9 /* Preview Content */,
+			);
+			path = iOS_AWS_S3_Uploader;
+			sourceTree = "<group>";
+		};
+		DB22F2662527A73900917DF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB22F2672527A73900917DF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB22F2762527A73A00917DF9 /* iOS_AWS_S3_UploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB22F2772527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.swift */,
+				DB22F2792527A73A00917DF9 /* Info.plist */,
+			);
+			path = iOS_AWS_S3_UploaderTests;
+			sourceTree = "<group>";
+		};
+		DB22F2812527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB22F2822527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.swift */,
+				DB22F2842527A73A00917DF9 /* Info.plist */,
+			);
+			path = iOS_AWS_S3_UploaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB22F25C2527A73700917DF9 /* iOS_AWS_S3_Uploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB22F2872527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_Uploader" */;
+			buildPhases = (
+				DB22F2592527A73700917DF9 /* Sources */,
+				DB22F25A2527A73700917DF9 /* Frameworks */,
+				DB22F25B2527A73700917DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_AWS_S3_Uploader;
+			productName = iOS_AWS_S3_Uploader;
+			productReference = DB22F25D2527A73700917DF9 /* iOS_AWS_S3_Uploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB22F2722527A73A00917DF9 /* iOS_AWS_S3_UploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB22F28A2527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_UploaderTests" */;
+			buildPhases = (
+				DB22F26F2527A73A00917DF9 /* Sources */,
+				DB22F2702527A73A00917DF9 /* Frameworks */,
+				DB22F2712527A73A00917DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB22F2752527A73A00917DF9 /* PBXTargetDependency */,
+			);
+			name = iOS_AWS_S3_UploaderTests;
+			productName = iOS_AWS_S3_UploaderTests;
+			productReference = DB22F2732527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB22F27D2527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB22F28D2527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_UploaderUITests" */;
+			buildPhases = (
+				DB22F27A2527A73A00917DF9 /* Sources */,
+				DB22F27B2527A73A00917DF9 /* Frameworks */,
+				DB22F27C2527A73A00917DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB22F2802527A73A00917DF9 /* PBXTargetDependency */,
+			);
+			name = iOS_AWS_S3_UploaderUITests;
+			productName = iOS_AWS_S3_UploaderUITests;
+			productReference = DB22F27E2527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB22F2552527A73700917DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DB22F25C2527A73700917DF9 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DB22F2722527A73A00917DF9 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB22F25C2527A73700917DF9;
+					};
+					DB22F27D2527A73A00917DF9 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB22F25C2527A73700917DF9;
+					};
+				};
+			};
+			buildConfigurationList = DB22F2582527A73700917DF9 /* Build configuration list for PBXProject "iOS_AWS_S3_Uploader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB22F2542527A73700917DF9;
+			productRefGroup = DB22F25E2527A73700917DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB22F25C2527A73700917DF9 /* iOS_AWS_S3_Uploader */,
+				DB22F2722527A73A00917DF9 /* iOS_AWS_S3_UploaderTests */,
+				DB22F27D2527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB22F25B2527A73700917DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB22F2682527A73900917DF9 /* Preview Assets.xcassets in Resources */,
+				DB22F2652527A73900917DF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB22F2712527A73A00917DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB22F27C2527A73A00917DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB22F2592527A73700917DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB22F26A2527A73900917DF9 /* Persistence.swift in Sources */,
+				DB22F2632527A73700917DF9 /* ContentView.swift in Sources */,
+				DB22F26D2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodeld in Sources */,
+				DB22F2612527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB22F26F2527A73A00917DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB22F2782527A73A00917DF9 /* iOS_AWS_S3_UploaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB22F27A2527A73A00917DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB22F2832527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB22F2752527A73A00917DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB22F25C2527A73700917DF9 /* iOS_AWS_S3_Uploader */;
+			targetProxy = DB22F2742527A73A00917DF9 /* PBXContainerItemProxy */;
+		};
+		DB22F2802527A73A00917DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB22F25C2527A73700917DF9 /* iOS_AWS_S3_Uploader */;
+			targetProxy = DB22F27F2527A73A00917DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB22F2852527A73A00917DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB22F2862527A73A00917DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB22F2882527A73A00917DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_AWS_S3_Uploader/Preview Content\"";
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS_AWS_S3_Uploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-AWS-S3-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB22F2892527A73A00917DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_AWS_S3_Uploader/Preview Content\"";
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS_AWS_S3_Uploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-AWS-S3-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB22F28B2527A73A00917DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_AWS_S3_UploaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-AWS-S3-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_AWS_S3_Uploader.app/iOS_AWS_S3_Uploader";
+			};
+			name = Debug;
+		};
+		DB22F28C2527A73A00917DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_AWS_S3_UploaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-AWS-S3-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_AWS_S3_Uploader.app/iOS_AWS_S3_Uploader";
+			};
+			name = Release;
+		};
+		DB22F28E2527A73A00917DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_AWS_S3_UploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-AWS-S3-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_AWS_S3_Uploader;
+			};
+			name = Debug;
+		};
+		DB22F28F2527A73A00917DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_AWS_S3_UploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-AWS-S3-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_AWS_S3_Uploader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB22F2582527A73700917DF9 /* Build configuration list for PBXProject "iOS_AWS_S3_Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB22F2852527A73A00917DF9 /* Debug */,
+				DB22F2862527A73A00917DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB22F2872527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB22F2882527A73A00917DF9 /* Debug */,
+				DB22F2892527A73A00917DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB22F28A2527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_UploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB22F28B2527A73A00917DF9 /* Debug */,
+				DB22F28C2527A73A00917DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB22F28D2527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_UploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB22F28E2527A73A00917DF9 /* Debug */,
+				DB22F28F2527A73A00917DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB22F26B2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB22F26C2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodel */,
+			);
+			currentVersion = DB22F26C2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodel */;
+			path = iOS_AWS_S3_Uploader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB22F2552527A73700917DF9 /* Project object */;
+}
