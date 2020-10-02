@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5891FA67A454FFD9914166AE /* Pods_iOS_AWS_S3_Uploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA2977515CE6560B8985C3 /* Pods_iOS_AWS_S3_Uploader.framework */; };
+		6990C94A528C8F04233F1DFE /* Pods_iOS_AWS_S3_Uploader_iOS_AWS_S3_UploaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90FD726780436BF17F1D4C9 /* Pods_iOS_AWS_S3_Uploader_iOS_AWS_S3_UploaderUITests.framework */; };
+		A2FC996E27DE07F0C3CDF4E8 /* Pods_iOS_AWS_S3_UploaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7051F094979C823E062C0CB7 /* Pods_iOS_AWS_S3_UploaderTests.framework */; };
 		DB22F2612527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2602527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift */; };
 		DB22F2632527A73700917DF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2622527A73700917DF9 /* ContentView.swift */; };
 		DB22F2652527A73900917DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB22F2642527A73900917DF9 /* Assets.xcassets */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38EE6463F621D77D4693DFF2 /* Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7051F094979C823E062C0CB7 /* Pods_iOS_AWS_S3_UploaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_AWS_S3_UploaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		752355171DEB3DA9CF0D9460 /* Pods-iOS_AWS_S3_Uploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_AWS_S3_Uploader.release.xcconfig"; path = "Target Support Files/Pods-iOS_AWS_S3_Uploader/Pods-iOS_AWS_S3_Uploader.release.xcconfig"; sourceTree = "<group>"; };
+		981F907C9D176C1FA38D6E6E /* Pods-iOS_AWS_S3_Uploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_AWS_S3_Uploader.debug.xcconfig"; path = "Target Support Files/Pods-iOS_AWS_S3_Uploader/Pods-iOS_AWS_S3_Uploader.debug.xcconfig"; sourceTree = "<group>"; };
+		A90FD726780436BF17F1D4C9 /* Pods_iOS_AWS_S3_Uploader_iOS_AWS_S3_UploaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_AWS_S3_Uploader_iOS_AWS_S3_UploaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DE2F0D666083D2F0157AB9 /* Pods-iOS_AWS_S3_UploaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_AWS_S3_UploaderTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_AWS_S3_UploaderTests/Pods-iOS_AWS_S3_UploaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C474D344FC966A9E910D58 /* Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB22F25D2527A73700917DF9 /* iOS_AWS_S3_Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_AWS_S3_Uploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB22F2602527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AWS_S3_UploaderApp.swift; sourceTree = "<group>"; };
 		DB22F2622527A73700917DF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		DB22F27E2527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_AWS_S3_UploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB22F2822527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AWS_S3_UploaderUITests.swift; sourceTree = "<group>"; };
 		DB22F2842527A73A00917DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E235C6C9291580179A7908 /* Pods-iOS_AWS_S3_UploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_AWS_S3_UploaderTests.release.xcconfig"; path = "Target Support Files/Pods-iOS_AWS_S3_UploaderTests/Pods-iOS_AWS_S3_UploaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBEA2977515CE6560B8985C3 /* Pods_iOS_AWS_S3_Uploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_AWS_S3_Uploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5891FA67A454FFD9914166AE /* Pods_iOS_AWS_S3_Uploader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FC996E27DE07F0C3CDF4E8 /* Pods_iOS_AWS_S3_UploaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6990C94A528C8F04233F1DFE /* Pods_iOS_AWS_S3_Uploader_iOS_AWS_S3_UploaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61FC0CBC748F4DEAC695A097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA2977515CE6560B8985C3 /* Pods_iOS_AWS_S3_Uploader.framework */,
+				A90FD726780436BF17F1D4C9 /* Pods_iOS_AWS_S3_Uploader_iOS_AWS_S3_UploaderUITests.framework */,
+				7051F094979C823E062C0CB7 /* Pods_iOS_AWS_S3_UploaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5E6E0CED5B541BC77B7B35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				981F907C9D176C1FA38D6E6E /* Pods-iOS_AWS_S3_Uploader.debug.xcconfig */,
+				752355171DEB3DA9CF0D9460 /* Pods-iOS_AWS_S3_Uploader.release.xcconfig */,
+				B6C474D344FC966A9E910D58 /* Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.debug.xcconfig */,
+				38EE6463F621D77D4693DFF2 /* Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.release.xcconfig */,
+				B0DE2F0D666083D2F0157AB9 /* Pods-iOS_AWS_S3_UploaderTests.debug.xcconfig */,
+				E5E235C6C9291580179A7908 /* Pods-iOS_AWS_S3_UploaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB22F2542527A73700917DF9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				DB22F2762527A73A00917DF9 /* iOS_AWS_S3_UploaderTests */,
 				DB22F2812527A73A00917DF9 /* iOS_AWS_S3_UploaderUITests */,
 				DB22F25E2527A73700917DF9 /* Products */,
+				AC5E6E0CED5B541BC77B7B35 /* Pods */,
+				61FC0CBC748F4DEAC695A097 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB22F2872527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_Uploader" */;
 			buildPhases = (
+				F980C487D91C257E62ABB4A8 /* [CP] Check Pods Manifest.lock */,
 				DB22F2592527A73700917DF9 /* Sources */,
 				DB22F25A2527A73700917DF9 /* Frameworks */,
 				DB22F25B2527A73700917DF9 /* Resources */,
+				F9F15853AABDDC026537CB68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB22F28A2527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_UploaderTests" */;
 			buildPhases = (
+				7B59CC525AD69DCB29F16DF2 /* [CP] Check Pods Manifest.lock */,
 				DB22F26F2527A73A00917DF9 /* Sources */,
 				DB22F2702527A73A00917DF9 /* Frameworks */,
 				DB22F2712527A73A00917DF9 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB22F28D2527A73A00917DF9 /* Build configuration list for PBXNativeTarget "iOS_AWS_S3_UploaderUITests" */;
 			buildPhases = (
+				BEA4C9AAA48091720022217A /* [CP] Check Pods Manifest.lock */,
 				DB22F27A2527A73A00917DF9 /* Sources */,
 				DB22F27B2527A73A00917DF9 /* Frameworks */,
 				DB22F27C2527A73A00917DF9 /* Resources */,
+				DA3F1229868EFD979EDEDB6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B59CC525AD69DCB29F16DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_AWS_S3_UploaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA4C9AAA48091720022217A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3F1229868EFD979EDEDB6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests/Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F980C487D91C257E62ABB4A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_AWS_S3_Uploader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F15853AABDDC026537CB68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_AWS_S3_Uploader/Pods-iOS_AWS_S3_Uploader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_AWS_S3_Uploader/Pods-iOS_AWS_S3_Uploader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_AWS_S3_Uploader/Pods-iOS_AWS_S3_Uploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB22F2592527A73700917DF9 /* Sources */ = {
@@ -422,6 +571,7 @@
 		};
 		DB22F2882527A73A00917DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981F907C9D176C1FA38D6E6E /* Pods-iOS_AWS_S3_Uploader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +594,7 @@
 		};
 		DB22F2892527A73A00917DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752355171DEB3DA9CF0D9460 /* Pods-iOS_AWS_S3_Uploader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +617,7 @@
 		};
 		DB22F28B2527A73A00917DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DE2F0D666083D2F0157AB9 /* Pods-iOS_AWS_S3_UploaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +640,7 @@
 		};
 		DB22F28C2527A73A00917DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E235C6C9291580179A7908 /* Pods-iOS_AWS_S3_UploaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +663,7 @@
 		};
 		DB22F28E2527A73A00917DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C474D344FC966A9E910D58 /* Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		DB22F28F2527A73A00917DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EE6463F621D77D4693DFF2 /* Pods-iOS_AWS_S3_Uploader-iOS_AWS_S3_UploaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
