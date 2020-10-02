@@ -6,75 +6,65 @@
 //
 
 import SwiftUI
-import CoreData
+import Combine
+import Amplify
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
-
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
-
-    var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-            }
-            .onDelete(perform: deleteItems)
-        }
-        .toolbar {
-            #if os(iOS)
-            EditButton()
-            #endif
-
-            Button(action: addItem) {
-                Label("Add Item", systemImage: "plus")
-            }
-        }
+  
+  @State var imageStringURL: String = ""
+  //  @ObservedObject var viewModel = ViewModel()
+  //  @ObservedObject var imageLoader:ImageLoader = ImageLoader(urlString: "https://cdni.llbean.net/is/image/wim/296437_116_41?hei=1092&wid=950&resMode=sharp2&defaultImage=llbstage/A0211793_2")
+  @State var image:UIImage = UIImage()
+  @State var showImagePicker: Bool = false
+  //  var resultSink: AnyCancellable?
+  //  var progressSink: AnyCancellable?
+  
+  var body: some View {
+    
+    VStack {
+      Button("Upload Image", action: {
+        self.showImagePicker.toggle()
+      })
+      Image(uiImage: image)
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+        .frame(width:200, height:200)
     }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
+    .sheet(isPresented: $showImagePicker, content: {
+      ImagePicker.shared.view
+    })
+    .onReceive(ImagePicker.shared.$image, perform: { image in //shows image in ImageView
+      if let image = image {
+        self.image = image
+        self.uploadData(data: image.pngData())
+      }
+    })
+    
+  }
+  
+  func uploadData(data: Data?) {
+    guard let data = data else {
+      print("Image not recognized")
+      return
     }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+    
+    Amplify.Storage.uploadData(key: UUID().uuidString+".png", data: data,
+            progressListener: { progress in
+                print("Progress: \(progress)")
+            }, resultListener: { (event) in
+                switch event {
+                case .success(let data):
+                    print("Completed: \(data)")
+                case .failure(let storageError):
+                    print("Failed: \(storageError.errorDescription). \(storageError.recoverySuggestion)")
             }
-        }
-    }
+        })
+  }
 }
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
+

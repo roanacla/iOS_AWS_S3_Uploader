@@ -1,1 +1,16 @@
-{}
+{
+  "auth": {
+    "iosawss3uploaderaea6d0dd": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "297S3Photos": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

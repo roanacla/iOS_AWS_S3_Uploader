@@ -21,6 +21,7 @@
 		DB22F2A72527B46B00917DF9 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = DB22F2A52527B46B00917DF9 /* amplifyconfiguration.json */; };
 		DB22F2A82527B46B00917DF9 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = DB22F2A62527B46B00917DF9 /* awsconfiguration.json */; };
 		DB22F2AD2527B4B600917DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2AC2527B4B600917DF9 /* AppDelegate.swift */; };
+		DB22F2B22527B86000917DF9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB22F2B12527B86000917DF9 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		DB22F2A52527B46B00917DF9 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
 		DB22F2A62527B46B00917DF9 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		DB22F2AC2527B4B600917DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB22F2B12527B86000917DF9 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		E5E235C6C9291580179A7908 /* Pods-iOS_AWS_S3_UploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_AWS_S3_UploaderTests.release.xcconfig"; path = "Target Support Files/Pods-iOS_AWS_S3_UploaderTests/Pods-iOS_AWS_S3_UploaderTests.release.xcconfig"; sourceTree = "<group>"; };
 		EBEA2977515CE6560B8985C3 /* Pods_iOS_AWS_S3_Uploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_AWS_S3_Uploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,6 +152,7 @@
 				DB22F2AC2527B4B600917DF9 /* AppDelegate.swift */,
 				DB22F2602527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift */,
 				DB22F2622527A73700917DF9 /* ContentView.swift */,
+				DB22F2B12527B86000917DF9 /* ImagePicker.swift */,
 				DB22F2642527A73900917DF9 /* Assets.xcassets */,
 				DB22F2692527A73900917DF9 /* Persistence.swift */,
 				DB22F26E2527A73900917DF9 /* Info.plist */,
@@ -427,6 +430,7 @@
 				DB22F26A2527A73900917DF9 /* Persistence.swift in Sources */,
 				DB22F2632527A73700917DF9 /* ContentView.swift in Sources */,
 				DB22F26D2527A73900917DF9 /* iOS_AWS_S3_Uploader.xcdatamodeld in Sources */,
+				DB22F2B22527B86000917DF9 /* ImagePicker.swift in Sources */,
 				DB22F2AD2527B4B600917DF9 /* AppDelegate.swift in Sources */,
 				DB22F2612527A73700917DF9 /* iOS_AWS_S3_UploaderApp.swift in Sources */,
 			);

@@ -10,6 +10,11 @@
       "StackName": "amplify-iosawss3uploader-dev-121652",
       "StackId": "arn:aws:cloudformation:us-east-1:756906170378:stack/amplify-iosawss3uploader-dev-121652/d5a59ce0-04e3-11eb-b1d7-0a36a8f29061",
       "AmplifyAppId": "d1u17fchqbj8tj"
+    },
+    "categories": {
+      "auth": {
+        "iosawss3uploaderaea6d0dd": {}
+      }
     }
   }
 }
