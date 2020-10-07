@@ -1,41 +1,55 @@
 {
   "images" : [
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-20@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-20@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-29.png",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-29@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-40@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-60@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "upload-icons-free-download-png-and-svg-upload-icon-png-256_256 copy-60@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
